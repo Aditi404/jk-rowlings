@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    display: grid;
+    grid-template-rows: 3px 300px 400px 400px 1500px 400px;
+    grid-gap: 40px;
+    text-align: center;
+    /* background-color: rgba(184, 52, 52, 0.438); */
+    grid-auto-rows: minmax(30px, auto);
+   
+  }
+  .menu {
+    background-color: white;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    /* position: fixed; */
+  }
+  .menu ul li {
+    /* float: left; */
+    display: inline;
+    justify-content: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    /* position: fixed; */
+  }
+  .menu ul li a {
+    text-decoration: none;
+    color: grey;
+    justify-content: center;
+    /* position: fixed; */
+  }
+  .menu, .f1 ul li a:hover {
+    text-decoration: none;
+    color: black;
+    /* position: absolute; */
+  }
+  .writing {
+    background-image: url("images/writing.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .text{
+      padding: 20px;
+      margin: 20px;
+  }
+  .h1 {
+    color: rgb(241, 233, 233);
+    font-size: 800rem;
+    padding: 20px;
+  }
+  .book1 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 20px;
+  
+  }
+  .content {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .intro h1 {
+    font-style: initial;
+    font-family: monospace;
+    font-size: 80px;
+    padding: 20px;
+  }
+  
+  .imgcontainer {
+    display: grid;
+    /* flex-direction: column; */
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-auto-columns: minmax(20px, auto); */
+    /* content: " "; */
+    /* display: table;  */
+    grid-column-gap: 80px;
+    justify-content: center;
+    align-items: center;
+    /* grid-auto-rows: minmax(30px, auto); */
+    /* padding-left: 120px; */
+    /* padding-right: -100px; */
+    grid-area: span;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    /* display: block; */
+  }
+  
+  .footer {
+    display: grid;
+    grid-template-rows: repeat(3, 2fr);
+    grid-auto-rows: minmax(550px, auto);
+    background-attachment: fixed;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    /* background-color: black; */
+    background-image: url("images/footer3.jpg");
+    /* background-repeat: no-repeat; */
+  
+  }
+  .f1 {
+    /* background-color: white; */
+    display: grid;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+  .f1 ul li {
+    /* float: left; */
+    display: inline;
+    justify-content: center;
+    /* color: #f2f2f209; */
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    /* position: fixed; */
+  }
+  .f1 ul li a {
+    text-decoration: none;
+    color: #736969;
+    justify-content: center;
+    /* position: fixed; */
+  }
+  .othername, .intro{
+  
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    /* height: 200px; */
+  }
